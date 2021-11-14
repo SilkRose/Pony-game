@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16">
+<path d="M0 0h16v13h-16v-13z" fill="rgb(255,255,255)" fill-opacity="0"/>
+<path d="M0 13h1v3h-1v-3z" fill="rgb(87,72,54)"/>
+<path d="M1 13h2v3h-2v-3z" fill="rgb(128,94,54)"/>
+<path d="M3 13h1v3h-1v-3z" fill="rgb(68,51,33)"/>
+<path d="M4 13h1v3h-1v-3z" fill="rgb(128,94,54)"/>
+<path d="M5 13h1v3h-1v-3z" fill="rgb(120,88,54)"/>
+<path d="M6 13h1v3h-1v-3z" fill="rgb(68,51,33)"/>
+<path d="M7 13h2v3h-2v-3z" fill="rgb(128,94,54)"/>
+<path d="M9 13h1v3h-1v-3z" fill="rgb(68,51,33)"/>
+<path d="M10 13h2v2h-2v-2z" fill="rgb(128,94,54)"/>
+<path d="M12 13h1v3h-1v-3z" fill="rgb(68,51,33)"/>
+<path d="M13 13h2v3h-2v-3z" fill="rgb(128,94,54)"/>
+<path d="M15 13h1v3h-1v-3z" fill="rgb(58,44,28)"/>
+<path d="M10 15h2v1h-2v-1z" fill="rgb(120,88,54)"/>
+</svg>

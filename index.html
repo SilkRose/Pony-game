@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./clicker.js"></script>
+    <script src="./dungeon-map.js"></script>
+    <script src="./dungeon.js"></script>
+    <script src="./display.js"></script>
+    <script src="./modules.js"></script>
+    <script src="./slot_machine.js"></script>
+    <title>pony clicker lol</title>
+</head>
+
+<body onload="updatecount()">
+    <div class="top_bar">
+        <button onclick="toggle_clicker()">Toggle clicker</button>
+        <div class="center_top_bar">
+            <p>Pony clicker™ 🤔</p>
+            <button onclick="save_game()">Save game.</button>
+            <button onclick="load_game()">Load game.</button>
+            <button onclick="delete_save()">Delete save.</button>
+        </div>
+        <button onclick="toggle_buildings()">Toggle buildings</button>
+    </div>
+    <div class="main">
+        <div class="left_clicker">
+            <div class="friends_clicker">
+                <h2 id="friends">You have 0 pony friends!</h2>
+                <button onclick="friend_got()">Make a new friend!</button>
+                <h3 id="fps">0 fps</h3>
+            </div>
+            <div class="bits_clicker">
+                <h2 id="bits">You have 0 bits!</h2>
+                <button onclick="bit_got()">Make a bit!</button>
+                <h3 id="bps">0 bps</h3>
+            </div>
+        </div>
+        <div id="center_gamespace"></div>
+        <div class="right_upgrades_buildings">
+            <div id="games">
+                <button onclick="load_mine_module(), start_dungeon_game()">Mine</button><br>
+                <button onclick="load_casino_module()">Casino</button>
+            </div>
+            <div id="buildings"></div>
+            <div id="upgrades"></div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16">
+<path d="M0 0h16v16h-16v-16z" fill="rgb(255,255,255)" fill-opacity="0"/>
+<path d="M7 3h2v1h-2v-1z" fill="rgb(222,204,44)"/>
+<path d="M4 4h2v2h-1v-1h-1v-1z" fill="rgb(238,217,34)"/>
+<path d="M7 4h2v2h-2v-2z" fill="rgb(238,217,34)"/>
+<path d="M10 4h2v1h-1v1h-1v-2z" fill="rgb(238,217,34)"/>
+<path d="M4 5h1v1h-1v-1z" fill="rgb(255,237,85)"/>
+<path d="M6 5h1v1h-1v-1z" fill="rgb(241,195,9)"/>
+<path d="M9 5h1v1h-1v-1z" fill="rgb(241,195,9)"/>
+<path d="M11 5h1v1h-1v-1z" fill="rgb(255,237,85)"/>
+<path d="M5 6h1v1h-1v-1z" fill="rgb(241,195,9)"/>
+<path d="M6 6h1v1h-1v-1z" fill="rgb(186,154,23)"/>
+<path d="M7 6h2v1h-2v-1z" fill="rgb(69,57,11)"/>
+<path d="M9 6h1v1h-1v-1z" fill="rgb(186,154,23)"/>
+<path d="M10 6h1v1h-1v-1z" fill="rgb(241,195,9)"/>
+<path d="M3 7h3v2h-1v-1h-2v-1z" fill="rgb(238,217,34)"/>
+<path d="M6 7h1v2h-1v-2z" fill="rgb(69,57,11)"/>
+<path d="M7 7h2v2h-2v-2z" fill="rgb(86,71,12)"/>
+<path d="M9 7h1v2h-1v-2z" fill="rgb(69,57,11)"/>
+<path d="M10 7h3v1h-2v1h-1v-2z" fill="rgb(238,217,34)"/>
+<path d="M3 8h2v1h-2v-1z" fill="rgb(255,237,85)"/>
+<path d="M11 8h2v1h-2v-1z" fill="rgb(255,237,85)"/>
+<path d="M5 9h1v1h-1v-1z" fill="rgb(241,195,9)"/>
+<path d="M6 9h1v1h-1v-1z" fill="rgb(186,154,23)"/>
+<path d="M7 9h2v1h-2v-1z" fill="rgb(69,57,11)"/>
+<path d="M9 9h1v1h-1v-1z" fill="rgb(186,154,23)"/>
+<path d="M10 9h1v1h-1v-1z" fill="rgb(241,195,9)"/>
+<path d="M4 10h2v1h-2v-1z" fill="rgb(238,217,34)"/>
+<path d="M6 10h1v1h-1v-1z" fill="rgb(241,195,9)"/>
+<path d="M7 10h2v2h-2v-2z" fill="rgb(238,217,34)"/>
+<path d="M9 10h1v1h-1v-1z" fill="rgb(241,195,9)"/>
+<path d="M10 10h2v1h-2v-1z" fill="rgb(238,217,34)"/>
+<path d="M4 11h2v1h-2v-1z" fill="rgb(255,237,85)"/>
+<path d="M10 11h2v1h-2v-1z" fill="rgb(255,237,85)"/>
+<path d="M7 12h2v1h-2v-1z" fill="rgb(255,237,85)"/>
+</svg>

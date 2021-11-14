@@ -1,0 +1,216 @@
+:root {
+    --clicker-status: visible;
+    --buildings-status: visible;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Saira', sans-serif;
+    user-select: none;
+}
+
+body {
+    padding: 0px;
+    background: #1E1E1E;
+    color: #ffffff;
+    height: 90%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    color: #a95aec;
+    border: 1px solid #a95aec;
+    border-radius: 3px;
+    width: 200px;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: pink;
+}
+
+.top_bar {
+    height: 40px;
+    padding: 5px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top_bar .center_top_bar {
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    
+}
+
+.top_bar .center_top_bar button {
+    color: #a95aec;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    font-size: 14px;
+    padding: 5px;
+    margin: 0px;
+    margin-left: 20px;
+}
+
+.top_bar p {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+.top_bar button {
+    color: #a95aec;
+    border: none;
+    border-radius: 4px;
+    width: 150px;
+    font-size: 14px;
+    padding: 5px;
+    margin: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.left_clicker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    border-right:  2px solid white;
+    margin-right: 10px;
+    min-width: 400px;
+    visibility: var(--clicker-status, visible);
+}
+
+.left_clicker h2 {
+    order: 1;
+}
+
+.left_clicker button {
+    order: 2;
+    margin: 10px;
+}
+
+.left_clicker h3 {
+    order: 3;
+}
+
+.zoom button {
+    color: #a95aec;
+    border: none;
+    border-radius: 4px;
+    width: 150px;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.right_upgrades_buildings {
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid white;
+    visibility: var(--buildings-status, visible);
+}
+
+#upgrades {
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#buildings {
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+}
+
+#reel1, #reel2, #reel3 img {
+    width: 60px;
+    height: 60px;
+}
+
+.reels {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#wintext {
+    text-align: center;
+}
+
+#timesran {
+    text-align: center;
+}
+
+#betted {
+    text-align: center;
+}
+
+#bet {
+    text-align: center;
+}
+
+#rtp {
+    text-align: center;
+}
+
+#winall {
+    text-align: center;
+}
+
+#timeswon {
+    text-align: center;
+}
+
+#perwin {
+    text-align: center;
+}
+
+#games {
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+}
+
+#spin {
+    align-self: center;
+}
+
+.friends_clicker {
+    margin-bottom: 50%;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg>
+<svg version="1.1" preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16">
+<path d="M0 0h16v16h-16v-16z" fill="rgb(255,255,255)" fill-opacity="0"/>
+<path d="M7 2h2v1h-2v-1z" fill="rgb(5,96,153)"/>
+<path d="M6 3h1v1h-1v-1z" fill="rgb(5,96,153)"/>
+<path d="M7 3h2v1h1v1h1v4h-1v1h-1v1h-1v1h-2v-1h-1v-1h-1v-1h1v-1h1v-1h1v-1h1v-2
+	h-1v-1z" fill="rgb(119,206,251)"/>
+<path d="M9 3h1v1h-1v-1z" fill="rgb(5,96,153)"/>
+<path d="M5 4h1v1h-1v-1z" fill="rgb(5,96,153)"/>
+<path d="M6 4h1v1h-1v-1z" fill="rgb(119,206,251)"/>
+<path d="M7 4h1v2h-1v1h-1v1h-1v1h-1v-2h1v-1h1v-1h1v-1z" fill="rgb(255,255,255)"/>
+<path d="M10 4h1v1h-1v-1z" fill="rgb(5,96,153)"/>
+<path d="M4 5h1v1h-1v-1z" fill="rgb(5,96,153)"/>
+<path d="M5 5h1v1h-1v-1z" fill="rgb(119,206,251)"/>
+<path d="M11 5h1v1h-1v-1z" fill="rgb(5,96,153)"/>
+<path d="M3 6h1v1h-1v-1z" fill="rgb(5,96,153)"/>
+<path d="M4 6h1v1h-1v-1z" fill="rgb(119,206,251)"/>
+<path d="M11 6h1v1h1v2h-1v1h-1v1h-1v1h-1v1h-2v-1h1v-1h1v-1h1v-1h1v-3z" fill="rgb(95,184,228)"/>
+<path d="M12 6h1v1h-1v-1z" fill="rgb(5,96,153)"/>
+<path d="M2 7h1v2h-1v-2z" fill="rgb(5,96,153)"/>
+<path d="M3 7h1v2h-1v-2z" fill="rgb(119,206,251)"/>
+<path d="M13 7h1v2h-1v-2z" fill="rgb(5,96,153)"/>
+<path d="M3 9h1v1h-1v-1z" fill="rgb(5,96,153)"/>
+<path d="M12 9h1v1h-1v-1z" fill="rgb(5,96,153)"/>
+<path d="M4 10h1v1h-1v-1z" fill="rgb(5,96,153)"/>
+<path d="M11 10h1v1h-1v-1z" fill="rgb(5,96,153)"/>
+<path d="M5 11h1v1h-1v-1z" fill="rgb(5,96,153)"/>
+<path d="M10 11h1v1h-1v-1z" fill="rgb(5,96,153)"/>
+<path d="M6 12h1v1h-1v-1z" fill="rgb(5,96,153)"/>
+<path d="M9 12h1v1h-1v-1z" fill="rgb(5,96,153)"/>
+<path d="M7 13h2v1h-2v-1z" fill="rgb(5,96,153)"/>
+</svg>
