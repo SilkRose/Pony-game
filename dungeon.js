@@ -41,9 +41,9 @@ window.onkeydown = function (key) {
     if (key.key === " ") {
         key.preventDefault();
         if (player_tile.type == "trapdoor") {
-            move_down_floor();
+            move_floor(1);
         } else if (player_tile.type == "ladder") {
-            move_up_floor();
+            move_floor(-1);
         } else if (player_tile.type == "door") {
             change_room();
         }
@@ -210,14 +210,13 @@ function zoom_out() {
     }
 }
 
-function move_down_floor() {
-    level++;
-    render_map();
-    play_hoofstep();
-}
-
-function move_up_floor() {
-    level--;
+function move_floor(dir) {
+    level += dir;
+    room = player_tile.floor_room;
+    for (i in map[level][room]) {
+        map[level][room][i].player = false;
+    }
+    map[level][room][player_tile.floor_tile].player = true;
     render_map();
     play_hoofstep();
 }

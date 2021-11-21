@@ -108,6 +108,8 @@ let map = {
             14: {
                 type: "trapdoor",
                 texture: "sprucetrapdoor",
+                floor_room: "a",
+                floor_tile: 4,
                 occupant: "",
                 player: false,
                 tile_x: 4,
@@ -168,6 +170,8 @@ let map = {
             4: {
                 type: "ladder",
                 texture: "ladderstone",
+                floor_room: "a",
+                floor_tile: 14,
                 occupant: "",
                 player: true,
                 tile_x: 2,
