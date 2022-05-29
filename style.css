@@ -5,7 +5,6 @@
 
 
 * {
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Saira', sans-serif;
@@ -30,12 +29,29 @@ button {
     border-radius: 3px;
     width: 200px;
     font-size: 20px;
-    padding: 10px 10px 10px 10px;
-    margin: auto;
+    padding: 10px;
 }
 
 button:hover {
     cursor: pointer;
+}
+
+#game-title {
+  font-weight: bolder;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+#game-title img {
+  width: 48px;
+  height: 48px;
+  image-rendering: pixelated;
+  padding: 0px;
+}
+
+img#game-icon {
+  margin: 15px;
 }
 
 p {
@@ -45,31 +61,43 @@ p {
 }
 
 .top_bar {
-    height: 40px;
-    padding: 5px;
-    background-color: blueviolet;
+    height: 60px;
+    padding: 20px 0px 20px 0px;
+    background-color: #ab47bc;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-.top_bar .center_top_bar {
-    align-items: center;
-    flex-direction: row;
-    display: flex;
-    
+div.center_top_bar {
+  padding: 0px;
+}
+
+div.center_top_bar ul {
+  margin: 0px;
+  padding: 0px;
+  align: center;
+}
+
+div.center_top_bar ul li {
+  list-style-type: none;
+  margin: 0px;
+  display: inline-block;
+}
+
+img.top-bar-action-icons {
+  image-rendering: pixelated;
+  width: 32px;
+  height: 32px;
+}
+
+.top_bar .toggles {
+  flex-direction: column;
 }
 
 .top_bar .center_top_bar button {
-    color: #a95aec;
-    border: none;
-    border-radius: 4px;
     width: 100px;
-    font-size: 14px;
-    padding: 5px;
-    margin: 0px;
-    margin-left: 20px;
 }
 
 .top_bar p {
@@ -81,15 +109,16 @@ p {
 }
 
 .top_bar button {
-    color: #a95aec;
-    border: none;
-    border-radius: 4px;
+    color: white;
+    border: 0px;
+    border-bottom: 5px solid #790e8b;
+    border-radius: 10px;
+    background-color: #df78ef;
     width: 150px;
     font-size: 14px;
     padding: 5px;
     margin: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
+    align-items: center;
 }
 
 .main {
@@ -136,10 +165,15 @@ p {
 }
 
 .right_upgrades_buildings {
-    display: flex;
     flex-direction: column;
-    border-left: 2px solid white;
+    border-left: 2px solid #444;
     visibility: var(--buildings-status, visible);
+}
+
+.right_upgrades_buildings button {
+  align-items: center;
+  margin: 30px;
+  margin-bottom: 5px;
 }
 
 #upgrades {
@@ -200,17 +234,16 @@ p {
     text-align: center;
 }
 
-#games {
-    padding: 20px;
-    margin: 0 auto;
-    text-align: center;
-    flex-direction: column;
-}
-
 #spin {
     align-self: center;
 }
 
 .friends_clicker {
     margin-bottom: 50%;
+}
+
+img.action-icons {
+  padding-right: 10px;
+  image-rendering: pixelated;
+  height: 48px;
 }
