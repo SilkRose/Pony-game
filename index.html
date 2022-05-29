@@ -17,14 +17,18 @@
 
 <body onload="updatecount()">
     <div class="top_bar">
-        <button onclick="toggle_clicker()">Toggle clicker</button>
+        <p id="game-title"><img id="game-icon" src="./assets/icon.png"/>THE Pony Clicker™</p>
         <div class="center_top_bar">
-            <p>Pony clicker™ 🤔</p>
-            <button onclick="save_game()">Save game.</button>
-            <button onclick="load_game()">Load game.</button>
-            <button onclick="delete_save()">Delete save.</button>
+          <ul>
+            <li><button onclick="save_game()"><img src="./assets/save.png" class="top-bar-action-icons" /></button></li>
+            <li><button onclick="load_game()"><img src="./assets/load.png" class="top-bar-action-icons" /></button></li>
+            <li><button onclick="delete_save()"><img src="./assets/delete.png" class="top-bar-action-icons" /></button></li>
+          </ul>
         </div>
-        <button onclick="toggle_buildings()">Toggle buildings</button>
+        <div class="toggles">
+          <button onclick="toggle_buildings()">Toggle Buildings</button>
+          <button onclick="toggle_clicker()">Toggle clicker</button>
+        </div>
     </div>
     <div class="main">
         <div class="left_clicker">
@@ -41,10 +45,8 @@
         </div>
         <div id="center_gamespace"></div>
         <div class="right_upgrades_buildings">
-            <div id="games">
-                <button onclick="load_mine_module(), start_dungeon_game()">Mine</button><br>
-                <button onclick="load_casino_module()">Casino</button>
-            </div>
+                <button onclick="load_mine_module(), start_dungeon_game()"><img src="./assets/mine.png" class="action-icons" />Mine</button><br>
+                <button onclick="load_casino_module()"><img src="./assets/casino.png" class="action-icons" />Casino</button>
             <div id="buildings"></div>
             <div id="upgrades"></div>
         </div>

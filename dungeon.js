@@ -26,16 +26,16 @@ window.onresize = function () {
 }
 
 window.onkeydown = function (key) {
-    if (key.key === "w") {
+    if (key.key == "w"|| key.key == "ArrowUp") {
         move_vertical(0, -1);
     };
-    if (key.key === "s") {
+    if (key.key === "s" || key.key == "ArrowDown") {
         move_vertical(180, 1);
     };
-    if (key.key === "a") {
+    if (key.key === "a" || key.key == "ArrowLeft") {
         move_horizontal(270, -1);
     };
-    if (key.key === "d") {
+    if (key.key === "d" || key.key == "ArrowRight") {
         move_horizontal(90, 1);
     };
     if (key.key === " ") {
@@ -134,7 +134,7 @@ function render_map() {
 function render_player() {
     offset_x = x - offset;
     offset_y = y - offset;
-    document.querySelector("#player").innerHTML = `<img src="./assets/player.svg" style="position: fixed; left: ${offset_x}px; top: ${offset_y}px; width: ${zoom}px; transform: rotate(${direction}deg); z-index: 100;">`;
+    document.querySelector("#player").innerHTML = `<img src="./assets/player.png" style="position: fixed; left: ${offset_x}px; top: ${offset_y}px; width: ${zoom}px; transform: rotate(${direction}deg); z-index: 100; image-rendering: pixelated;">`;
 }
 
 function render_fog() {
