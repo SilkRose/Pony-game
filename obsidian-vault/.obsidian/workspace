@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "16fcdd7836d6b74c",
+    "type": "split",
+    "children": [
+      {
+        "id": "518e8d72786f42a6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Click'd n Clon'd.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "db1b4033dcf3cdd0",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0ac6f35fded45d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af59fd6020a33c32",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6f478ab7ca9c2df3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "aa3b49450d48065e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e27a516118ceed47",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d23500a9b9c1ae6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Click'd n Clon'd.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "518e8d72786f42a6",
+  "lastOpenFiles": [
+    "Click'd n Clon'd.md",
+    "Newspaper stand.md",
+    "Events.md",
+    "Buildings.md",
+    "Clicker.md",
+    "Clones.md",
+    "Mini-game.md",
+    "Pool of amalgamations.md",
+    "todo-ideas.md",
+    "Friends.md"
+  ]
+}
