@@ -67,3 +67,6 @@ function load_casino_module() {
     `;
 }
 
+function load_story_module() {
+    document.querySelector("#center_gamespace").innerHTML = ``;
+}
