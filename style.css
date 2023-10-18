@@ -1,249 +1,250 @@
 :root {
-    --clicker-status: visible;
-    --buildings-status: visible;
+	--clicker-status: visible;
+	--buildings-status: visible;
 }
 
-
 * {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Saira', sans-serif;
-    user-select: none;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Saira", sans-serif;
+	user-select: none;
 }
 
 body {
-    padding: 0px;
-    background: #1E1E1E;
-    color: #ffffff;
-    height: 90%;
+	padding: 0px;
+	background: #1e1e1e;
+	color: #ffffff;
+	height: 90%;
 }
 
 html {
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 button {
-    color: #a95aec;
-    border: 1px solid #a95aec;
-    border-radius: 3px;
-    width: 200px;
-    font-size: 20px;
-    padding: 10px;
+	color: #a95aec;
+	border: 1px solid #a95aec;
+	border-radius: 3px;
+	width: 200px;
+	font-size: 20px;
+	padding: 10px;
 }
 
 button:hover {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 #game-title {
-  font-weight: bolder;
-  padding-left: 50px;
-  display: flex;
-  align-items: center;
+	font-weight: bolder;
+	padding-left: 50px;
+	display: flex;
+	align-items: center;
 }
 
 #game-title img {
-  width: 48px;
-  height: 48px;
-  image-rendering: pixelated;
-  padding: 0px;
+	width: 48px;
+	height: 48px;
+	image-rendering: pixelated;
+	padding: 0px;
 }
 
 img#game-icon {
-  margin: 15px;
+	margin: 15px;
 }
 
 p {
-    margin-top: 10px;
-    font-size: 20px;
-    color: pink;
+	margin-top: 10px;
+	font-size: 20px;
+	color: pink;
 }
 
 .top_bar {
-    height: 60px;
-    padding: 20px 0px 20px 0px;
-    background-color: #ab47bc;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+	height: 60px;
+	padding: 20px 0px 20px 0px;
+	background-color: #ab47bc;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
 }
 
 div.center_top_bar {
-  padding: 0px;
+	padding: 0px;
 }
 
 div.center_top_bar ul {
-  margin: 0px;
-  padding: 0px;
-  align: center;
+	margin: 0px;
+	padding: 0px;
+	align: center;
 }
 
 div.center_top_bar ul li {
-  list-style-type: none;
-  margin: 0px;
-  display: inline-block;
+	list-style-type: none;
+	margin: 0px;
+	display: inline-block;
 }
 
 img.top-bar-action-icons {
-  image-rendering: pixelated;
-  width: 32px;
-  height: 32px;
+	image-rendering: pixelated;
+	width: 32px;
+	height: 32px;
 }
 
 .top_bar .toggles {
-  flex-direction: column;
+	flex-direction: column;
 }
 
 .top_bar .center_top_bar button {
-    width: 100px;
+	width: 100px;
 }
 
 .top_bar p {
-    color: white;
-    margin: 0px;
-    padding: 0px;
-    padding-left: 0px;
-    padding-right: 10px;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 0px;
+	padding-right: 10px;
 }
 
 .top_bar button {
-    color: white;
-    border: 0px;
-    border-bottom: 5px solid #790e8b;
-    border-radius: 10px;
-    background-color: #df78ef;
-    width: 150px;
-    font-size: 14px;
-    padding: 5px;
-    margin: 0px;
-    align-items: center;
+	color: white;
+	border: 0px;
+	border-bottom: 5px solid #790e8b;
+	border-radius: 10px;
+	background-color: #df78ef;
+	width: 150px;
+	font-size: 14px;
+	padding: 5px;
+	margin: 0px;
+	align-items: center;
 }
 
 .main {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    justify-content: space-between;
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content: space-between;
 }
 
 .left_clicker {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: auto;
-    border-right:  2px solid white;
-    margin-right: 10px;
-    min-width: 400px;
-    visibility: var(--clicker-status, visible);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: auto;
+	border-right: 2px solid white;
+	margin-right: 10px;
+	min-width: 400px;
+	visibility: var(--clicker-status, visible);
 }
 
 .left_clicker h2 {
-    order: 1;
+	order: 1;
 }
 
 .left_clicker button {
-    order: 2;
-    margin: 10px;
+	order: 2;
+	margin: 10px;
 }
 
 .left_clicker h3 {
-    order: 3;
+	order: 3;
 }
 
 .zoom button {
-    color: #a95aec;
-    border: none;
-    border-radius: 4px;
-    width: 150px;
-    font-size: 14px;
-    padding: 5px;
-    margin-top: 10px;
+	color: #a95aec;
+	border: none;
+	border-radius: 4px;
+	width: 150px;
+	font-size: 14px;
+	padding: 5px;
+	margin-top: 10px;
 }
 
 .right_upgrades_buildings {
-    flex-direction: column;
-    border-left: 2px solid #444;
-    visibility: var(--buildings-status, visible);
+	flex-direction: column;
+	border-left: 2px solid #444;
+	visibility: var(--buildings-status, visible);
 }
 
 .right_upgrades_buildings button {
-  align-items: center;
-  margin: 30px;
-  margin-bottom: 5px;
+	align-items: center;
+	margin: 30px;
+	margin-bottom: 5px;
 }
 
 #upgrades {
-    padding: 20px;
-    margin: 0 auto;
-    text-align: center;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 #buildings {
-    padding: 20px;
-    margin: 0 auto;
-    text-align: center;
-    flex-direction: column;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+	flex-direction: column;
 }
 
-#reel1, #reel2, #reel3 img {
-    width: 60px;
-    height: 60px;
+#reel1,
+#reel2,
+#reel3 img {
+	width: 60px;
+	height: 60px;
 }
 
 .reels {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: space-between;
 }
 
 #wintext {
-    text-align: center;
+	text-align: center;
 }
 
 #timesran {
-    text-align: center;
+	text-align: center;
 }
 
 #betted {
-    text-align: center;
+	text-align: center;
 }
 
 #bet {
-    text-align: center;
+	text-align: center;
 }
 
 #rtp {
-    text-align: center;
+	text-align: center;
 }
 
 #winall {
-    text-align: center;
+	text-align: center;
 }
 
 #timeswon {
-    text-align: center;
+	text-align: center;
 }
 
 #perwin {
-    text-align: center;
+	text-align: center;
 }
 
 #spin {
-    align-self: center;
+	align-self: center;
 }
 
 .friends_clicker {
-    margin-bottom: 50%;
+	margin-bottom: 50%;
 }
 
 img.action-icons {
-  padding-right: 10px;
-  image-rendering: pixelated;
-  height: 48px;
+	padding-right: 10px;
+	image-rendering: pixelated;
+	height: 48px;
 }

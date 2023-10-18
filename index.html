@@ -2,58 +2,61 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <script src="./clicker.js"></script>
-    <script src="./dungeon-map.js"></script>
-    <script src="./dungeon.js"></script>
-    <script src="./display.js"></script>
-    <script src="./modules.js"></script>
-    <script src="./slot_machine.js"></script>
-    <script src="./story.js" type="module"></script>
-    <title>pony clicker lol</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="style.css">
+	<script src="./clicker.js"></script>
+	<script src="./dungeon-map.js"></script>
+	<script src="./dungeon.js"></script>
+	<script src="./display.js"></script>
+	<script src="./modules.js"></script>
+	<script src="./slot_machine.js"></script>
+	<script src="./story.js" type="module"></script>
+	<title>pony clicker lol</title>
 </head>
 
 <body onload="updatecount()">
-    <div class="top_bar">
-        <p id="game-title"><img id="game-icon" src="./assets/icon.png"/>THE Pony Clicker™</p>
-        <div class="center_top_bar">
-          <ul>
-            <li><button onclick="save_game()"><img src="./assets/save.png" class="top-bar-action-icons" /></button></li>
-            <li><button onclick="load_game()"><img src="./assets/load.png" class="top-bar-action-icons" /></button></li>
-            <li><button onclick="delete_save()"><img src="./assets/delete.png" class="top-bar-action-icons" /></button></li>
-          </ul>
-        </div>
-        <div class="toggles">
-          <button onclick="toggle_buildings()">Toggle Buildings</button>
-          <button onclick="toggle_clicker()">Toggle clicker</button>
-        </div>
-    </div>
-    <div class="main">
-        <div class="left_clicker">
-            <div class="friends_clicker">
-                <h2 id="friends">You have 0 pony friends!</h2>
-                <button onclick="friend_got()">Make a new friend!</button>
-                <h3 id="fps">0 fps</h3>
-            </div>
-            <div class="bits_clicker">
-                <h2 id="bits">You have 0 bits!</h2>
-                <button onclick="bit_got()">Make a bit!</button>
-                <h3 id="bps">0 bps</h3>
-            </div>
-        </div>
-        <div id="center_gamespace"></div>
-        <div class="right_upgrades_buildings">
-                <button onclick="load_mine_module(), start_dungeon_game()"><img src="./assets/mine.png" class="action-icons" />Mine</button><br>
-                <button onclick="load_casino_module()"><img src="./assets/casino.png" class="action-icons" />Casino</button><br>
-                <button onclick="load_story_module()">Story</button>
-            <div id="buildings"></div>
-            <div id="upgrades"></div>
-        </div>
-    </div>
+	<div class="top_bar">
+		<p id="game-title"><img id="game-icon" src="./assets/icon.png" />THE Pony Clicker™</p>
+		<div class="center_top_bar">
+			<ul>
+				<li><button onclick="save_game()"><img src="./assets/save.png" class="top-bar-action-icons" /></button></li>
+				<li><button onclick="load_game()"><img src="./assets/load.png" class="top-bar-action-icons" /></button></li>
+				<li><button onclick="delete_save()"><img src="./assets/delete.png" class="top-bar-action-icons" /></button>
+				</li>
+			</ul>
+		</div>
+		<div class="toggles">
+			<button onclick="toggle_buildings()">Toggle Buildings</button>
+			<button onclick="toggle_clicker()">Toggle clicker</button>
+		</div>
+	</div>
+	<div class="main">
+		<div class="left_clicker">
+			<div class="friends_clicker">
+				<h2 id="friends">You have 0 pony friends!</h2>
+				<button onclick="friend_got()">Make a new friend!</button>
+				<h3 id="fps">0 fps</h3>
+			</div>
+			<div class="bits_clicker">
+				<h2 id="bits">You have 0 bits!</h2>
+				<button onclick="bit_got()">Make a bit!</button>
+				<h3 id="bps">0 bps</h3>
+			</div>
+		</div>
+		<div id="center_gamespace"></div>
+		<div class="right_upgrades_buildings">
+			<button onclick="load_mine_module(), start_dungeon_game()"><img src="./assets/mine.png"
+					class="action-icons" />Mine</button><br>
+			<button onclick="load_casino_module()"><img src="./assets/casino.png"
+					class="action-icons" />Casino</button><br>
+			<button onclick="load_story_module()">Story</button>
+			<div id="buildings"></div>
+			<div id="upgrades"></div>
+		</div>
+	</div>
 </body>
 
 </html>
