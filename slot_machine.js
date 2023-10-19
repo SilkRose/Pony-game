@@ -284,7 +284,8 @@ function spin_slot_machine() {
 }
 
 function setReel(num, reel_val) {
-	document.querySelector(`#reel${num}`).innerHTML = `<img id="reel${num}" src="assets/${reel_val}" alt="reel${num}">`;
+	document.querySelector(`#reel${num}`).innerHTML =
+		`<img id="reel${num}" src="assets/${reel_val}" alt="reel${num}">`;
 }
 
 function spin_reel(num) {
@@ -330,12 +331,3 @@ function set_bet(amount) {
 	perwin = 0;
 	spin_slot_machine();
 }
-
-/*
-function test(num) {
-	 var object = {
-		  [`my${num}varrlol`]: "fbweuifhbwe"
-	 };
-	 return object[`my${num}varrlol`];
-}
-*/

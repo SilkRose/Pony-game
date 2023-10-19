@@ -162,7 +162,8 @@ function update_buildings(i) {
 	document.querySelector("#buildings").innerHTML = "";
 	for (i in clicker.buildings) {
 		if (clicker.buildings[i].unlocked) {
-			document.querySelector("#buildings").innerHTML += `<br><button onclick="buy_building('${i}')">${clicker.buildings[i].name}</button>`;
+			document.querySelector("#buildings").innerHTML +=
+				`<br><button onclick="buy_building(${i})">${clicker.buildings[i].name}</button>`;
 		};
 	};
 }
@@ -195,7 +196,8 @@ function update_upgrades() {
 	document.querySelector("#upgrades").innerHTML = "";
 	for (i in clicker.upgrades) {
 		if (!clicker.upgrades[i].has && clicker.upgrades[i].unlocked) {
-			document.querySelector("#upgrades").innerHTML += `<br><button onclick="buy_upgrade('${i}')">${clicker.upgrades[i].name}</button>`;
+			document.querySelector("#upgrades").innerHTML +=
+				`<br><button onclick="buy_upgrade(${i})">${clicker.upgrades[i].name}</button>`;
 		};
 	};
 }
@@ -235,7 +237,9 @@ function updatecount() {
 			}
 		};
 		update_bps();
-		document.querySelector("#friends").innerHTML = "You have " + (clicker.friends).toFixed(0) + " pony friends!";
-		document.querySelector("#bits").innerHTML = "You have " + (clicker.bits).toFixed(0) + " bits!";
+		document.querySelector("#friends").innerHTML =
+			"You have " + (clicker.friends).toFixed(0) + " pony friends!";
+		document.querySelector("#bits").innerHTML =
+			"You have " + (clicker.bits).toFixed(0) + " bits!";
 	}, 50);
 }
