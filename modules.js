@@ -17,15 +17,15 @@ function load_casino_module() {
 	document.querySelector("#center_gamespace").innerHTML = `
 	<div class="reels">
 	<div id="reel1">
-		<img id="reel1" src="assets/diamond.svg" alt="reel1">
+		<img id="reel1" src="assets/diamond.png" alt="reel1">
 	</div>
 	<div></div>
 	<div id="reel2">
-		<img id="reel2" src="assets/diamond.svg" alt="reel2">
+		<img id="reel2" src="assets/diamond.png" alt="reel2">
 	</div>
 	<div></div>
 	<div id="reel3">
-		<img id="reel3" src="assets/diamond.svg" alt="reel3">
+		<img id="reel3" src="assets/diamond.png" alt="reel3">
 	</div>
 	</div>
 	<div></div>

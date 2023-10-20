@@ -31,68 +31,68 @@ var reel = {
 	1: [
 		item_1 = {
 			range: "1-8",
-			texture: "redmushroom.svg",
+			texture: "redmushroom.png",
 			win: true,
 			rtp: 0.5
 		},
 		item_2 = {
 			range: "9-13",
-			texture: "sunflowerfront.svg",
+			texture: "sunflowerfront.png",
 			win: true,
 			rtp: 200
 		},
 		item_3 = {
 			range: "14-27",
-			texture: "trident.svg",
+			texture: "trident.png",
 			win: true,
 			rtp: 10
 		},
 		item_4 = {
 			range: "28-39",
-			texture: "redstone.svg",
+			texture: "redstone.png",
 			win: true,
 			rtp: 80
 		},
 		item_5 = {
 			range: "40-42",
-			texture: "goldingot.svg",
+			texture: "goldingot.png",
 			win: true,
 			rtp: 200
 		},
 		item_6 = {
 			range: "43-50",
-			texture: "enderpearl.svg",
+			texture: "enderpearl.png",
 			win: true,
 			rtp: 20
 		},
 		item_7 = {
 			range: "51-56",
-			texture: "emerald.svg",
+			texture: "emerald.png",
 			win: true,
 			rtp: 100
 		},
 		item_8 = {
 			range: "57-62",
-			texture: "endereye.svg",
+			texture: "endereye.png",
 			win: true,
 			rtp: 30
 		},
 		item_9 = {
 			range: "63-68",
-			texture: "goldenapple.svg",
+			texture: "goldenapple.png",
 			win: true,
 			rtp: 35
 		},
 		item_10 = {
 			range: "69-77",
-			texture: "diamond.svg",
+			texture: "diamond.png",
 			win: true,
 			rtp: 1000,
 			jackpot: true
 		},
 		item_11 = {
 			range: "78-84",
-			texture: "wild.svg",
+			texture: "wild.png",
 			rtp: 200,
 			wild: true
 		}
@@ -100,68 +100,68 @@ var reel = {
 	2: [
 		item_1 = {
 			range: "1-8",
-			texture: "redmushroom.svg",
+			texture: "redmushroom.png",
 			win: true,
 			rtp: 0.5
 		},
 		item_2 = {
 			range: "9-13",
-			texture: "sunflowerfront.svg",
+			texture: "sunflowerfront.png",
 			win: true,
 			rtp: 200
 		},
 		item_3 = {
 			range: "14-27",
-			texture: "trident.svg",
+			texture: "trident.png",
 			win: true,
 			rtp: 10
 		},
 		item_4 = {
 			range: "28-39",
-			texture: "redstone.svg",
+			texture: "redstone.png",
 			win: true,
 			rtp: 80
 		},
 		item_5 = {
 			range: "40-42",
-			texture: "goldingot.svg",
+			texture: "goldingot.png",
 			win: true,
 			rtp: 200
 		},
 		item_6 = {
 			range: "43-50",
-			texture: "enderpearl.svg",
+			texture: "enderpearl.png",
 			win: true,
 			rtp: 20
 		},
 		item_7 = {
 			range: "51-56",
-			texture: "emerald.svg",
+			texture: "emerald.png",
 			win: true,
 			rtp: 100
 		},
 		item_8 = {
 			range: "57-60",
-			texture: "endereye.svg",
+			texture: "endereye.png",
 			win: true,
 			rtp: 30
 		},
 		item_9 = {
 			range: "61-64",
-			texture: "goldenapple.svg",
+			texture: "goldenapple.png",
 			win: true,
 			rtp: 35
 		},
 		item_10 = {
 			range: "65-73",
-			texture: "diamond.svg",
+			texture: "diamond.png",
 			win: true,
 			rtp: 1000,
 			jackpot: true
 		},
 		item_11 = {
 			range: "74-80",
-			texture: "wild.svg",
+			texture: "wild.png",
 			wild: true,
 			rtp: 100,
 		}
@@ -169,68 +169,68 @@ var reel = {
 	3: [
 		item_1 = {
 			range: "1-8",
-			texture: "redmushroom.svg",
+			texture: "redmushroom.png",
 			win: true,
 			rtp: 0.5
 		},
 		item_2 = {
 			range: "9-13",
-			texture: "sunflowerfront.svg",
+			texture: "sunflowerfront.png",
 			win: true,
 			rtp: 200
 		},
 		item_3 = {
 			range: "14-27",
-			texture: "trident.svg",
+			texture: "trident.png",
 			win: true,
 			rtp: 10
 		},
 		item_4 = {
 			range: "28-39",
-			texture: "redstone.svg",
+			texture: "redstone.png",
 			win: true,
 			rtp: 80
 		},
 		item_5 = {
 			range: "40-42",
-			texture: "goldingot.svg",
+			texture: "goldingot.png",
 			win: true,
 			rtp: 200
 		},
 		item_6 = {
 			range: "43-50",
-			texture: "enderpearl.svg",
+			texture: "enderpearl.png",
 			win: true,
 			rtp: 20
 		},
 		item_7 = {
 			range: "51-56",
-			texture: "emerald.svg",
+			texture: "emerald.png",
 			win: true,
 			rtp: 100
 		},
 		item_8 = {
 			range: "57-62",
-			texture: "endereye.svg",
+			texture: "endereye.png",
 			win: true,
 			rtp: 30
 		},
 		item_9 = {
 			range: "63-68",
-			texture: "goldenapple.svg",
+			texture: "goldenapple.png",
 			win: true,
 			rtp: 35
 		},
 		item_10 = {
 			range: "69-73",
-			texture: "diamond.svg",
+			texture: "diamond.png",
 			win: true,
 			rtp: 1000,
 			jackpot: true
 		},
 		item_11 = {
 			range: "74-79",
-			texture: "wild.svg",
+			texture: "wild.png",
 			wild: true,
 			rtp: 100
 		}
