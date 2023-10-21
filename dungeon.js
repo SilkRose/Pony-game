@@ -102,6 +102,7 @@ function render_map() {
 			offset_y = y - offset;
 			document.querySelector("#gamespace").innerHTML +=
 				`<img src="./assets/${map[`${level}`][`${room}`][i].texture}.png" alt="${map[`${level}`][`${room}`][i].texture}" style="position: fixed; left: ${offset_x}px; top: ${offset_y}px; width: ${zoom}px; z-index: -100;">`;
+			break;
 		}
 	}
 	for (i in map[level][room]) {
@@ -111,8 +112,6 @@ function render_map() {
 			document.querySelector("#gamespace").innerHTML +=
 				`<img src="./assets/${map[`${level}`][`${room}`][i].texture}.png" alt="${map[`${level}`][`${room}`][i].texture}" style="position: fixed; left: ${offset_x}px; top: ${offset_y}px; width: ${zoom}px; z-index: -100;">`;
 		}
-	}
-	for (i in map[level][room]) {
 		if (map[level][room][i].type === "door") {
 			if (map[level][room][i].door_rotation === 0) {
 				offset_x = (map[level][room][i].tile_x - center_x) * zoom - offset + x;
